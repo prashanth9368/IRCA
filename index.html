@@ -60,6 +60,10 @@
 	$(document).ready(function() {
 	
 		//$("#page-transition").css({"background-color": "rgb(42, 42, 42)", "visibility": "hidden", "opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, 0)","animation-duration": "3s","-webkit-animation-duration": "3s"});
+		
+		$("#nav-toggle").click(function(){
+			$("#nav-items").toggleClass("home-open-menu");
+		});
 	
 		$("#home-latest-item-renault-integrity").mouseover(function(){
 			$("#ims1").css({"transform": "matrix(1, 0, 0, 1, 0, -341)", "color": "#fff"});
