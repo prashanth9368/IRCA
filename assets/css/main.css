@@ -694,3 +694,9 @@ div#values {
 #toc-list>li {
 	list-style-type: decimal;
 }
+.home-open-menu {
+	transform: translateX(0) !important;
+	background-color: rgba(0,0,0,1) !important;
+	overflow: scroll !important;
+	transition:transform .6s cubic-bezier(1,0,0,1),-webkit-transform .6s cubic-bezier(1,0,0,1) !important;
+}
