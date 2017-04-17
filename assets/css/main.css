@@ -700,27 +700,3 @@ div#values {
 	overflow: scroll !important;
 	transition:transform .6s cubic-bezier(1,0,0,1),-webkit-transform .6s cubic-bezier(1,0,0,1) !important;
 }
-li#home-latest-item-renault-integrity {
-    background: url(../img/IMS.jpg);
-}
-li#home-latest-item-renault-integrity:hover {
-    background: #3056D3;
-}
-li#home-latest-item-cic {
-    background: url(../img/eclub.png);
-}
-li#home-latest-item-cic-integrity:hover {
-    background: #de3013;
-}
-li#home-latest-item-engie-digital-design {
-    background: url(../img/SIP.png);
-}
-li#home-latest-item-engie-digital-design:hover {
-    background: #38b3e4;
-}
-li#home-latest-item-shopping-robot {
-    background: url(../img/hrcubes.png);
-}
-li#home-latest-item-shopping-robot:hover {
-    background: #39b2b7;
-}
