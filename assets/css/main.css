@@ -700,3 +700,7 @@ div#values {
 	overflow: scroll !important;
 	transition:transform .6s cubic-bezier(1,0,0,1),-webkit-transform .6s cubic-bezier(1,0,0,1) !important;
 }
+.slide>p {
+    font-weight: bold;
+    color: black;
+}
