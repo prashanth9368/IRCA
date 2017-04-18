@@ -10,7 +10,7 @@ if(isset($_POST['email'])){
 	$city = $_POST['city'];
 	$phone = $_POST['phone'];
     $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
+    $subject2 = "Copy of your form submission from IRCA website";
     $message = "Subject:" . $sub . "\n\n Name:" . $name . "\n Email: " . $from . "\n Message:" . $msg . "\nCity:" . $city . "\nPhone" . $phone . "\nFirst-Name:" . $first-name . "\nCompany" . $company;
 
     $headers = "From:" . $from;
