@@ -631,7 +631,7 @@ font-size:30px;
 .contact-team-member::before {
 	background-image: linear-gradient(#474747,#fff);
 }
-div#values {
+div#values, div#mission {
     padding-left: 50px;
 }
 
