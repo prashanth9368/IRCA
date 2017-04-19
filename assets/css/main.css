@@ -713,3 +713,18 @@ a.bx-prev, a.bx-next {
     font-weight: bold;
     margin: 0px 10%;
 }
+span#ims1:after {
+    background-color: #feb018;
+}
+span#eclub1:after{
+    background-color: #e67370;
+}
+span#sip1:after{
+    background-color: #dd4805;
+}
+span#hrcubes1:after{
+    background-color: #41c9bd;
+}
+span#pre1:after{
+    background-color: #b09e82;
+}
