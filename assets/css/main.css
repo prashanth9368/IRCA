@@ -703,4 +703,5 @@ div#values, div#mission {
 .slide>p {
     font-weight: bold;
     color: black;
+    display: inline;
 }
