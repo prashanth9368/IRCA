@@ -116,6 +116,18 @@
 			$("#hrcubes3").css({"opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, 0)"});
 			$("#hrcubes4").css({"opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, 0)"});
 		});
+		$("#home-latest-item-shopping-robot-1").mouseover(function(){
+			$("#pre1").css({"transform": "matrix(1, 0, 0, 1, 0, -341)","color":"#fff"});
+			$("#pre2").css({"opacity": "1", "transform": "matrix(1, 0, 0, 1, 0, -341)"});
+			$("#pre3").css({"opacity": "1", "transform": "matrix(1, 0, 0, 1, 0, -144)"});
+			$("#pre4").css({"opacity": "1", "transform": "matrix(1, 0, 0, 1, 0, -74)"});
+		});
+		$("#home-latest-item-shopping-robot-1").mouseleave(function(){
+			$("#pre1").css({"transform": "matrix(1, 0, 0, 1, 0, -341)","color":"#41c9bd"});
+			$("#pre2").css({"opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, -341)"});
+			$("#pre3").css({"opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, 0)"});
+			$("#pre4").css({"opacity": "0", "transform": "matrix(1, 0, 0, 1, 0, 0)"});
+		});
 		
 			$("#home-what-title").css({"opacity": "1", "transform": "translateY(0px)", "transition-duration": "1s"});
 			$("#home-what-subtitle").css({"opacity": "1", "transform": "translateY(0px)", "transition-duration": "1s"});
@@ -783,6 +795,29 @@
                 <!--[if IE 9]><video style="display: none;><![endif]-->
                                 <source media="(min-width: 768px)" data-srcset="assets/img/hrcubes.png 1400w, assets/img/hrcubes.png 2800w">
                                 <source data-srcset="assets/img/cases/hrcubes/thumb-mobile.png 400w, assets/img/cases/hrcubes/thumb-mobile@2x.png 800w">
+                <!--[if IE 9]></video><![endif]-->
+                <img class="home-latest-item-thumb lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              </picture>
+            </div>
+          </a>
+        </li>
+			<li class="home-latest-item" id="home-latest-item-shopping-robot-1">
+          <a class="home-latest-item-btn" href="case-studies/pre.html" style="opacity: 1;">
+            <h2 class="home-latest-item-title">
+              <span class="home-latest-item-title-line home-latest-item-title-line-1" id="pre1" style="color:#b09e82">PRE</span>
+              <span class="home-latest-item-title-line home-latest-item-title-line-2" id="pre2" style="opacity:0">Product Recommendation Engine..</span>
+            </h2>
+            <p class="home-latest-item-desc" id="pre3">The Product Recommendation Engine is a methodology for identifying the most important factor i.e. Constraint that stands in the way of achieving a goal and then systematically improving that constraint until it is no longer the limiting factor.</p>
+            <div class="home-latest-item-cta" id="pre4">
+              <svg class="home-latest-item-cta-arrow">
+                <use xlink:href="#sprite-arrow-04">
+              </svg>
+            </div>
+            <div class="home-latest-item-thumb-wrapper">
+              <picture>
+                <!--[if IE 9]><video style="display: none;><![endif]-->
+                                <source media="(min-width: 768px)" data-srcset="assets/img/toc-banner.png 1400w, assets/img/toc-banner.png 2800w">
+                                <source data-srcset="assets/img/cases/pre/thumb-mobile.png 400w, assets/img/cases/pre/thumb-mobile@2x.png 800w">
                 <!--[if IE 9]></video><![endif]-->
                 <img class="home-latest-item-thumb lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
               </picture>
