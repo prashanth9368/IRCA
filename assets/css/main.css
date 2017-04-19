@@ -636,12 +636,12 @@ div#values, div#mission {
 }
 
 @media screen and (min-width: 400px) { 
-	span#ims1, span#eclub1, span#sip1, span#hrcubes1 {
+	span#ims1, span#eclub1, span#sip1, span#hrcubes1, span#pre1 {
 		transform:matrix(1, 0, 0, 1, 0, 0);
 	}
 }
 @media screen and (min-width: 1280px) { 
-	span#ims1, span#eclub1, span#sip1, span#hrcubes1 {
+	span#ims1, span#eclub1, span#sip1, span#hrcubes1, span#pre1 {
 		transform:matrix(1, 0, 0, 1, 0, -341);
 	}
 }
