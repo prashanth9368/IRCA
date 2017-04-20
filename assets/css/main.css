@@ -728,3 +728,15 @@ span#hrcubes1:after{
 span#pre1:after{
     background-color: #c1b5a3;
 }
+#pre-ui {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 100px 120px 0;
+    font-size: 0;
+    background: #b09e82;
+    background-size: auto 100%;
+}
