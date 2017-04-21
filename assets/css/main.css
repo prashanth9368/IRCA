@@ -698,8 +698,8 @@ div#values, div#mission {
 @media screen and (min-width: 768px) { 
 	#cms-banner {
 		background-image: url(../img/eclub-1.jpg);
-		min-height:600px;
-		max-height:600px;
+		min-height:570px;
+		max-height:570px;
 	}
 }
 #toc-list>li {
