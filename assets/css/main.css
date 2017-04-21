@@ -751,3 +751,6 @@ span#pre1:after{
     background: #b09e82;
     background-size: auto 100%;
 }
+a.jf-branding {
+    display: none !important;
+}
