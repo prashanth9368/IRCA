@@ -750,6 +750,7 @@ span#pre1:after{
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    min-height:100vh;
     padding: 100px 120px 0;
     font-size: 0;
     background: #b09e82;
