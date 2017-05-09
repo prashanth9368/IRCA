@@ -173,6 +173,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    min-height:100vh;
     padding: 100px 120px 0;
     font-size: 0;
     background: #73C137;
@@ -185,6 +186,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    min-height:100vh;
     padding: 100px 120px 0;
     font-size: 0;
     background: #ff8100;
