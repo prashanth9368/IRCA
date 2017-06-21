@@ -654,12 +654,12 @@ div#values, div#mission {
 }
 @media screen and (max-width: 400px) { 
 	.slide>img {
-		width:80px;
+		width:100%;
 	}
 }
 @media screen and (max-width: 768px) { 
 	.slide>img {
-		width:100px;
+		width:100%;
 	}
 }
 #ims-why-content>li {
