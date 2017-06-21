@@ -22,7 +22,7 @@
 		speed: 500,
 		easing: null,
 		slideMargin: 0,
-		startSlide: 0,
+		startSlide: 1,
 		randomStart: false,
 		captions: false,
 		ticker: false,
