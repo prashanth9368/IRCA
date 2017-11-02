@@ -759,3 +759,6 @@ span#pre1:after{
     background: #fbc162;
     background-size: auto 100%;
 }
+.formFooter {
+    display: none !important;
+}
