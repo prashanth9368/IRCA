@@ -5019,7 +5019,7 @@ h2.box {
 .pagecover .entrycover.short {
 	padding:70px 0 70px 0;
 }
-.pagecover h1.maintitle {
+.pagecover h1.maintitle, h2.maintitle {
 	color:#fff;
 	text-transform:uppercase;
 	font-weight:900;
@@ -5028,7 +5028,7 @@ h2.box {
 	margin:0px auto;
 	letter-spacing:.02em;
 }
-.pagecover .entrycover.short h1.maintitle {
+.pagecover .entrycover.short h1.maintitle, h2.maintitle {
 	font-size:40px;
 }
 .pagecover:before {
