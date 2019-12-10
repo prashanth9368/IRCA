@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
 Sitemap: https://ircaindia.com/sitemap.xml
+Redirect 301 /systematic-inventory-planning.html /sales-flow-automation.html
