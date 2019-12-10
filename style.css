@@ -2896,7 +2896,7 @@ input.contact {
 	left:0;
 	right:0;
 	bottom:0;
-	background:rgba(248,207,39,0.7);
+	background:rgba(0,0,0,0.7);
 	text-align:center;
 	transition:all .5s ease;
 }
