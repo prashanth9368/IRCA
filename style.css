@@ -6441,3 +6441,8 @@ small,.small {
 		margin-bottom: 20px;
 	}
 }
+
+.client-list article {
+	width: 20%;
+	padding: 20px;
+}
