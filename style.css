@@ -6440,9 +6440,44 @@ small,.small {
 		#footer .widget {
 		margin-bottom: 20px;
 	}
+	.col-half-offset{
+		margin-left:0%
+	}
+	.col-xs-6 {
+		width: 50% !important;
+	}
 }
 
 .client-list article {
 	width: 20%;
 	padding: 20px;
+}
+
+@media(min-width:501px) {
+	.flex-viewport {
+		height: 220px !important;
+	}
+	.col-half-offset{
+		margin-left:4.166666667%;
+	}
+}
+
+.flex-direction-nav li .flex-prev {
+	left: 45%;
+}
+
+.flex-direction-nav li .flex-next {
+	right: 45%;
+}
+
+.clientele {
+	padding: 10px;
+}
+
+.clientele>div {
+	padding: 10px;
+}
+
+.flex-direction-nav a {
+	top: 85%;
 }
